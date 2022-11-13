@@ -51,6 +51,7 @@ The goal of this assignment is to give some information about the outcome once a
 
 - The percentage of black pieces of all the pieces on the board.
 - The percentage of the board that is covered in black pieces.
+
 The Othello board measures eight squares by eight squares, making the total number of squares sixty-four.
 
 Write a program that takes the number of white pieces followed by the number of black pieces as input. Print the two percentages as output.
