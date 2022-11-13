@@ -201,6 +201,7 @@ The second smallest number is: 5
 Bubble sort is a sorting algorithm: when given a list, for example [4,2,6,8], it will sort the list to become sorted, [2,4,6,8]. Bubble sort works by walking through the list, comparing adjacent elements, and swapping them if they are in the wrong order. The process of walking through the list is repeated until we have traversed the entire list and no elements were swapped (this means that all adjacent elements are in the right order, and hence the list is sorted).
 
 Example:
+
 First pass
 
 ( 5 1 4 2 8 ) → ( 1 5 4 2 8 ) Here, the algorithm compares the first two elements, and swaps since 5 > 1.
