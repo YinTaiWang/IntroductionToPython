@@ -86,10 +86,8 @@ One of the most renowned unsolved problems in mathematics is the Collatz conject
 Start out with some number n.
 
 Apply the following rule repeatedly to the number:
-
-if n is even, the next number is n/2
-if n is odd, the next number is 3n + 1
-
+- if n is even, the next number is n/2
+- if n is odd, the next number is 3n + 1
 This will give us a list of numbers. For example, when starting with 11 the list will be:
 ```
 11 34 17 52 26 13 40 20 10 5 16 8 4 2 1 4 2 1 4 2 1 ...
