@@ -6,11 +6,11 @@ The electrics company ‘The Battered Battery’ is nearly bankrupt. To avoid to
 Remember that the goal of making the assignments in this chapter is to practice the use of if-statements. Therefore, do not use the built-in function max or a sorting function in this assignment.
 
 Example:
-Enter the price of the first article: 200
+'''Enter the price of the first article: 200
 Enter the price of the second article: 50
 Enter the price of the third article: 25
 Discount: 30.00
-Total: 245.00
+Total: 245.00'''
 
 ## 2 - Othello 2
 During a game of Othello, the time a player spends thinking about his moves is recorded. Write a program that reads the times that the two players have thought, in milliseconds. One of the players is human, the other is a computer. The program determines which of the two players is human and prints the thinking time of the human in the following format: hh:mm:ss. It may be assumed that a computer always has less thinking time than a human.
