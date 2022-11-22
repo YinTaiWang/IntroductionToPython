@@ -1,3 +1,4 @@
+numbers = []
 numbers = input("Please enter some numbers: ")
 number = numbers.split(" ")
 number = list(map(int, number))
@@ -7,5 +8,6 @@ for t in range(0, M):
     for i in range(0, M-1):
         if number[i] > number[i + 1]:
             number[i], number[i + 1] = number[i + 1], number[i]
-
+    if t == M-1:
+        break
 print(number)
