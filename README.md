@@ -11,6 +11,7 @@ Week 3
 Functions
 
 Week 4
+More functions, Wordle
 
 Week 5
 Snake
