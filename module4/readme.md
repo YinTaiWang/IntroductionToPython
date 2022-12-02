@@ -64,7 +64,7 @@ As an example, suppose the secret word is "peace". If the user guesses "angle", 
 In the official version, the words you are allowed to guess must be actually existing words. In our version, we do not have this requirement, allowing you to guess any sequence of five characters. (We also do not implement hard mode, only normal mode.)
 
 
-> Coloring
+### Coloring
 You will have to specify the colors of each of the characters in a guess. You might expect to compare the letters in the guess one by one with the secret word and then color them accordingly. The actual coloring is slightly more sophisticated. Imagine the secret word is "razor" and you guessed "honor". The coloring then should be honor. Since the second 'o' is a full match, it gets priority and will be colored first. The first 'o' will be gray, because, even though there is an 'o' in the secret word, it has already been matched with the second 'o', and so there are no remaining 'o's left.
 
 This priority system is the key to correctly implementing this algorithm. First, we color the full matches green, then the remaining characters that still appear are matched yellow and the remaining characters will be matched gray. See the following steps:
