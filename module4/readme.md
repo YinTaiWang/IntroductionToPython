@@ -37,7 +37,6 @@ For example:
      b = [1,4,6,8]
             ^
      c = [1,1,3,...]
-      
 ```
 the arrows (^) point to the lowest element we did not consider before. Of these, element 4 from b is less than element 5 from a. For this reason, we select 4 as the next element and advance the arrow ^ for b to point to 6.
 
