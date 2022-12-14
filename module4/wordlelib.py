@@ -1,3 +1,5 @@
+# This file is provied by Vrije Universiteit Amsterdam
+
 import textwrap
 import tkinter as _tk
 import tkinter.font
