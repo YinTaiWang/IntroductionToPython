@@ -1,4 +1,4 @@
-# This file is provied by Vrije Universiteit Amsterdam
+# This file is provied by Vrije Universiteit Amsterdam.
 
 import textwrap
 import tkinter as _tk
