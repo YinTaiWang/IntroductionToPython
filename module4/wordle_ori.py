@@ -1,3 +1,5 @@
+# This file is provided by Vrije Universiteit Amsterdam
+
 import wordlelib
 
 # this variable hold the userinterface
