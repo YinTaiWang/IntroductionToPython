@@ -1,4 +1,4 @@
-# This file is provided by Vrije Universiteit Amsterdam
+# This file is provided by Vrije Universiteit Amsterdam.
 
 import wordlelib
 
